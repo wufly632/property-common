@@ -9,12 +9,6 @@ import ma.glasnost.orika.Converter;
 
 import java.util.Optional;
 
-/**
- * @author Wufly  fei.wu@transsnet.com
- * @project: property-common
- * @description:
- * @date 2022/8/24
- */
 public enum ConverterEnum {
 
     NONE {
