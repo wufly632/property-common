@@ -10,7 +10,7 @@ public class BizException extends RuntimeException {
     /**
      * 错误码
      */
-    private String errorCode;
+    private Integer errorCode;
     /**
      * 错误码
      */
@@ -56,7 +56,7 @@ public class BizException extends RuntimeException {
         this.args = args;
     }
 
-    public BizException(String errorCode, String errorMsg) {
+    public BizException(Integer errorCode, String errorMsg) {
         super("[" + errorCode + "][" + errorMsg + "]");
         this.errorCode = errorCode;
         this.errorMsg = errorMsg;

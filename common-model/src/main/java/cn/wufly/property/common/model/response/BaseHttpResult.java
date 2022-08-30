@@ -13,7 +13,7 @@ public class BaseHttpResult<T> {
     /**
      * 状态码
      */
-    private String code;
+    private Integer code;
     /**
      * 成功
      */
@@ -39,7 +39,7 @@ public class BaseHttpResult<T> {
         return of(null, exceptionEnum);
     }
 
-    public static <T> BaseHttpResult<T> fail(String code, String message) {
+    public static <T> BaseHttpResult<T> fail(Integer code, String message) {
         BaseHttpResult<T> baseHttpResult = new BaseHttpResult<>();
         baseHttpResult.setSuccess(false);
         baseHttpResult.setMessage(message);
