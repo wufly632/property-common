@@ -3,7 +3,7 @@ package cn.wufly.property.common.util;
 import cn.wufly.property.common.anno.OrikaField;
 import cn.wufly.property.common.bo.FieldMapBO;
 import cn.wufly.property.common.enums.ConverterEnum;
-import cn.wufly.property.common.model.response.PageWrapper;
+import cn.wufly.property.common.response.PageWrapper;
 import ma.glasnost.orika.MapperFactory;
 import ma.glasnost.orika.impl.DefaultMapperFactory;
 import ma.glasnost.orika.metadata.ClassMapBuilder;

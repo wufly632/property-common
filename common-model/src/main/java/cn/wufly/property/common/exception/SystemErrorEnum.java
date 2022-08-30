@@ -1,4 +1,4 @@
-package cn.wufly.property.common.model.exception;
+package cn.wufly.property.common.exception;
 
 public enum SystemErrorEnum implements BizExceptionEnumI {
     /**

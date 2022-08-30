@@ -1,4 +1,4 @@
-package cn.wufly.property.common.model.enums;
+package cn.wufly.property.common.enums;
 
 public interface EnumI<T> {
     /**

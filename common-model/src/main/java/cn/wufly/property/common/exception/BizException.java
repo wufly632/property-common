@@ -1,4 +1,4 @@
-package cn.wufly.property.common.model.exception;
+package cn.wufly.property.common.exception;
 
 import lombok.Data;
 

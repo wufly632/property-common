@@ -1,4 +1,4 @@
-package cn.wufly.property.common.model.request;
+package cn.wufly.property.common.request;
 
 import lombok.Data;
 @Data

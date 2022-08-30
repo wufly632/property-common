@@ -1,6 +1,6 @@
-package cn.wufly.property.common.model.response;
+package cn.wufly.property.common.response;
 
-import cn.wufly.property.common.model.exception.SystemErrorEnum;
+import cn.wufly.property.common.exception.SystemErrorEnum;
 import lombok.Data;
 import org.slf4j.MDC;
 

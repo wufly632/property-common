@@ -1,4 +1,4 @@
-package cn.wufly.property.common.model.response;
+package cn.wufly.property.common.response;
 
 import java.io.Serializable;
 import java.util.ArrayList;
