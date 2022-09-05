@@ -1,6 +1,7 @@
 package cn.wufly.property.common.response;
 
 import cn.wufly.property.common.exception.SystemErrorEnum;
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import org.slf4j.MDC;
 
@@ -13,6 +14,7 @@ public class BaseHttpResult<T> {
     /**
      * 状态码
      */
+    @ApiModelProperty(value = "code",example = "0")
     private Integer code;
     /**
      * 成功
